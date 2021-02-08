@@ -1,14 +1,14 @@
+---
 title: {{ title }}
 date: {{ date }}
-author: 
-img: 
-coverImg: 
 top: false
 cover: false
-toc: true
-mathjax: false
 password:
+toc: true
+mathjax: true
 summary:
 tags:
 categories:
+comments: true
+id:
 ---

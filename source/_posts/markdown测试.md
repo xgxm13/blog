@@ -15,8 +15,7 @@ tags:
 - Games
 comments: true
 categories:
-- [Diary, PlayStation]
-- [Diary, Games]
-- [Life]
+- [笔记]
+id: 2
 ---
-这是我到哪都不会打哪部分凡开放空间按看吧
+郭有才
