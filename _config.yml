@@ -354,14 +354,15 @@ vendors:
     copy_tex: npm/katex@0.12.0/dist/contrib/copy-tex.min.js
     chart: npm/frappe-charts@1.5.0/dist/frappe-charts.min.iife.min.js
     
-permalink: :category/:year/:month/:day/
+permalink: :category/:year/:month/:day/:id/
 permalink_defaults:
 
 default_category: notes
 category_map:
-  mac: mac
-  vue: vue
-  前端: web
+  前端: Web
+  Mac: Mac
+  Vue: Vue
+  微信小程序: Wechat
   python: python
   何何: lover
   筱何: dog
@@ -374,3 +375,36 @@ deploy:
   repo: git@github.com:xgxm13/xgxm13.github.io.git
   branch: master
 
+    # Live2D
+## https://github.com/EYHN/hexo-helper-live2d
+## https://l2dwidget.js.org/docs/class/src/index.js~L2Dwidget.html#instance-method-init
+live2d:
+  enable: true
+  #enable: false
+  scriptFrom: local # 默认
+  pluginRootPath: live2dw/assets/ # 插件在站点上的根目录(相对路径)
+  pluginJsPath: lib/ # 脚本文件相对与插件根目录路径
+  pluginModelPath: assets/ # 模型文件相对与插件根目录路径
+  # scriptFrom: jsdelivr # jsdelivr CDN
+  # scriptFrom: unpkg # unpkg CDN
+  # scriptFrom: https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url
+  tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中
+  debug: false # 调试, 是否在控制台输出日志
+  model:
+    use: live2d-widget-model-tororo #tororo 白猫 tsumiki 黑猫 hibiki 萝莉
+    # use: live2d-widget-model-wanko # npm-module package name
+    # use: wanko # 博客根目录/live2d_models/ 下的目录名
+    # use: ./wives/wanko # 相对于博客根目录的路径
+    # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url
+  display:
+    position: right
+    width: 250
+    height: 500
+    hOffset: -20
+    vOffset: -100
+  mobile:
+    show: true # 是否在移动设备上显示
+    scale: 0.5 # 移动设备上的缩放
+  react:
+    opacityDefault: 0.7
+    opacityOnHover: 0.8
