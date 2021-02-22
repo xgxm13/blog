@@ -4,7 +4,7 @@ language: zh-CN
 author: 筱何仔
 subtitle: 萌's 代码
 title: 筱何仔
-url: http://blog.mengcodes.com
+url: https://blog.mengcodes.com
 
 open_graph:
   #twitter_id:
@@ -367,7 +367,7 @@ category_map:
   何何: lover
   筱何: dog
   二何: cat
-  笔记: notes
+  笔记: Notes
   测试: test
 
 deploy:
