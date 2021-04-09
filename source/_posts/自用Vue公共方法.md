@@ -67,4 +67,23 @@ function trim (str, isGlobal = false) {
   return str
 }
 ```
+## 对象按某个属性排序
+```js codes
+const arr = [
+  {id: 1, name: '金刚', height: 120, weight: 180},
+  {id: 2, name: '哥斯拉', height: 138, weight: 220},
+  {id: 3, name: '机械哥斯拉', height: 130, weight: 190},
+]
+···
+// 按某个属性排序
+compare(prop) {
+  return (a,b) => {
+    let value1 = a[prop]
+    let value2 = b[prop]
+    return value1 - value2
+  }
+}
+console.log(obj.sort(compare('height')))  //返回对象height从小到大正向排序
+
+```
 [:heart:筱何仔]{.label .danger}
