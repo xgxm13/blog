@@ -274,9 +274,9 @@ markdown:
 pangu: false
 # 站内搜索
 algolia:
-  appId: UAZB28N1PE
-  apiKey: 54dd7e1c13a8d97f259b1ab7cff5575b
-  adminApiKey: aacd87ea378ee75a02d244cf4d145076
+  appId: X4HTAG0NNT
+  apiKey: e743a4455826ad3c4b17cfc28790c1c4
+  adminApiKey: ba56082a8625620e4c25e2a8cba1ca28
   chunkSize: 5000
   indexName: blog
   fields:
