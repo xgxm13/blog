@@ -9,9 +9,9 @@ date: 2021-11-15 16:50:01
 password:
 summary:
 - 前端
-- JS
+- Js
 categories:
-- [前端, JS]
+- [前端, Js]
 id: 1
 ---
 有些业务场景需要用的 [forEach]{.red} 比如需要遍历复杂数据，只要出现一个满足条件的数据就终止掉整个循环。
