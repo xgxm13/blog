@@ -372,7 +372,7 @@ category_map:
 
 deploy:
   type: git
-  repo: git@github.com:xgxm13/xgxm13.github.io.git
+  repo: git@github:xgxm13/xgxm13.github.io.git
   branch: master
 
     # Live2D
