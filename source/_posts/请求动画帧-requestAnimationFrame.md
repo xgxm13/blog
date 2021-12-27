@@ -44,7 +44,7 @@ id: 1
 // js
 const scroll = document.getElementById('scroll');
 function scroll() {
-  scroll.scrollTop = wrap.scrollTop + 1;
+  scroll.scrollTop = scroll.scrollTop + 1;
   if (scroll.scrollTop >= scroll.scrollHeight - scroll.offsetHeight) {
     scroll.scrollTop = 0;
   }
@@ -72,14 +72,10 @@ function scroll() {
   // 当前时间-上次执行时间如果大于diffTime，那么执行动画，并更新上次执行时间
   if(nowTime-lastTime > diffTime){
       lastTime = nowTime
-      wrap.scrollTop = wrap.scrollTop + 1;
-      if (wrap.scrollTop >= wrap.scrollHeight - wrap.offsetHeight) {
-        wrap.scrollTop = 0;
+      scroll.scrollTop = scroll.scrollTop + 1;
+      if (scroll.scrollTop >= scroll.scrollHeight - scroll.offsetHeight) {
+        scroll.scrollTop = 0;
       }
-  }
-  scroll.scrollTop = wrap.scrollTop + 1;
-  if (scroll.scrollTop >= scroll.scrollHeight - scroll.offsetHeight) {
-    scroll.scrollTop = 0;
   }
   requestAnimationFrame(scroll);
 }

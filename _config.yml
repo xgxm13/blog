@@ -19,7 +19,7 @@ js: js
 images: images
 
 # themes/shoka/source/images/***
-theme: shoka
+theme: shoka  
 favicon:
   apple_touch_icon: /apple-touch-icon.png
   #safari_pinned_tab: /logo.svg
@@ -362,6 +362,7 @@ category_map:
   前端: Web
   Mac: Mac
   Vue: Vue
+  React: React
   微信小程序: Wechat
   python: python
   何何: lover
@@ -369,6 +370,7 @@ category_map:
   二何: cat
   笔记: Notes
   测试: test
+  Webpack: Webpack
 
 deploy:
   type: git
