@@ -5,7 +5,7 @@ date: 2021-02-05 10:39:32
 # 本站信息
 * 站名：萌's 代码
 * 站长：筱何仔
-* 地址：[http://blog.mengcodes.com](http://blog.mengcodes.com) 
+* 地址：[https://blog.mengcodes.com](http://blog.mengcodes.com) 
 * 头像：![头像](https://i.loli.net/2021/02/05/iGaEmy4vzBdk3WC.jpg)
 * [筱何仔]{.yellow}：[4]{.kbd}~岁~ ![筱何仔](https://i.loli.net/2021/02/05/MXHmUnVxjSypOl4.png)
 * [二何仔]{.grey}：[1]{.kbd}~岁~ ![二何仔](https://i.loli.net/2021/02/05/bWjk4HRnFaZ1xEf.jpg)
@@ -15,7 +15,7 @@ date: 2021-02-05 10:39:32
 # 申请方法
 - 添加本站后，在本页留言，格式如下
 
-```yml 留言示例 https://shoka.lostyu.me 参考链接 mark:1,6-7
+```yml 留言示例 https://shoka.lostyu.me 例如
 - site: #网站的名字
   owner: #您的名字
   url: #您的网址
