@@ -62,7 +62,7 @@ hexo.extend.generator.register('script', function(locals){
 
   if(theme.fireworks && theme.fireworks.enable) {
     text += fs.readFileSync('themes/shoka/source/js/_app/fireworks.js').toString();
-    siteConfig.fireworks = theme.fireworks.color || ["rgba(255,182,185,.9)", "rgba(250,227,217,.9)", "rgba(187,222,214,.9)", "rgba(138,198,209,.9)"]
+    siteConfig.fireworks = theme.fireworks.color
   }
 
   text = 'var CONFIG = ' + JSON.stringify(siteConfig) + ';' + text;

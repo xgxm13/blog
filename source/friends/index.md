@@ -39,4 +39,12 @@ date: 2021-02-05 10:39:32
   desc: 个人博客 & 个人网站
   image: https://i.loli.net/2021/02/05/E6pUOTf7BoYVASx.jpg
   color: "#ff9999"
+
+- site: 爱笑的Gao的个人博客
+  owner: Gao
+  url: https://manamn.space
+  desc: 通过代码实现财富自由
+  image: https://qnc.qjnice.com/165159135345814.png
+  color: "#3b70fc"
+
 {% endlinks %}

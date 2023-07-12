@@ -23,17 +23,17 @@ id: 1
 # Vuex概述
 Vuex 是一个专为 Vue.js 应用程序开发的状态管理模式。Vuex 是实现组件全局状态（数据）管理的一种机制，可以方便地实现组件之间数据的共享。
 # Vuex的基本使用
-## 1.安装vuex依赖包
+## 安装vuex依赖包
 ```js 安装vuex依赖包
 npm install vuex --save
 ```
-## 2.导入Vuex包
+## 导入Vuex包
 ```js 导入
 import Vuex from 'vuex'
 // 使用
 Vue.use(Vuex)
 ```
-## 3.创建store对象
+## 创建store对象
 ```js 创建store对象
 const store = new Vuex.store({
   // state 中存放的就是全局共享的数据
@@ -42,7 +42,7 @@ const store = new Vuex.store({
   }
 })
 ```
-## 4.将store对象挂载到 vue 实例中
+## 将store对象挂载到 vue 实例中
 ```js 将store对象挂载到 vue 实例中
 new Vue({
   router,

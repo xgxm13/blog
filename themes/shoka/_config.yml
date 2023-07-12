@@ -41,10 +41,10 @@ loader:
 fireworks:
   enable: true
   color:
-    # - "rgba(255,182,185,.9)"
-    # - "rgba(250,227,217,.9)"
-    # - "rgba(187,222,214,.9)"
-    # - "rgba(138,198,209,.9)"
+    - "rgba(254,253,175,.9)"
+    - "rgba(240,128,128,.9)"
+    - "rgba(255,228,196,.9)"
+    - "rgba(173,216,230,.9)"
 
 font:
   enable: true
@@ -109,13 +109,13 @@ menu:
 # secend value is the name of Font icon.
 social:
   github: https://github.com/xgxm13 || github || "#191717"
-  google: https://plus.google.com/yourname || google
-  twitter: https://twitter.com/yourname || twitter || "#00aff0"
+  # google: https://plus.google.com/yourname || google
+  twitter: https://twitter.com/tt1823991 || twitter || "#00aff0"
   # zhihu: https://www.zhihu.com/people/yourname || zhihu || "#1e88e5"
   music: https://music.163.com/#/user/home?id=123189940 || cloud-music || "#e60026"
   weibo: https://weibo.com/7138043805 || weibo || "#ea716e"
-  # about: https://about.me/yourname || address-card || "#3b5998" 
-  # email: mailto:yourname@mail.com || envelope || "#55acd5"
+  # bilibili: https://space.bilibili.com/285263427 || icon-bilibili || "#3b5998" 
+  # email: mailto:xgxm13@163.com || envelope || "#55acd5"
   #facebook: https://www.facebook.com/yourname || facebook
   #stackoverflow: https://stackoverflow.com/yourname || stack-overflow
   #youtube: https://youtube.com/yourname || youtube
