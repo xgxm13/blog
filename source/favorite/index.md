@@ -4,9 +4,38 @@ date: 2021-02-08 17:10:49
 ---
 # 常用网站
 ## 工作网站
+### 图站
+{% links %}
+- site: yande.re
+  owner: yande
+  url: https://yande.re/
+  desc: 萌妹
+  image: https://shoka.lostyu.me/webstack/logo/yande.re.png
+  color: "#e9546b"
+
+- site: zerochan
+  owner: zerochan
+  url: https://www.zerochan.net/
+  desc: HQ Anime Image Board
+  image: https://shoka.lostyu.me/webstack/logo/zerochan.png
+  color: "#8f74fb"
+
+- site: Tsundora
+  owner: Tsundora
+  url: https://tsundora.com/
+  desc: 高解像度・高画質なアニメ＆ゲーム壁紙
+  image: https://shoka.lostyu.me/webstack/logo/tsundora.png
+  color: "#000"
+
+- site: Wallpaperboys
+  owner: Wallpaperboys
+  url: https://wallpaperboys.com/
+  desc: iPhone アニメ壁紙
+  image: https://shoka.lostyu.me/webstack/logo/anihonetwallpaper.png
+  color: "#1d5fa0"
+{% endlinks %}
 ### 视频
 * 慕课网 [https://www.imooc.com](https://www.imooc.com/)
-* PHP中文 [https://www.php.cn](https://www.php.cn/)
 * B站 [https://www.bilibili.com](https://www.bilibili.com/)
 
 ### 文档
