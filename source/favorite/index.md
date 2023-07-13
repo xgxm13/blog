@@ -1,11 +1,3 @@
-<!--
- * @Author: Menge
- * @Date: 2023-07-13 10:19:48
- * @LastEditTime: 2023-07-13 10:33:31
- * @LastEditors: Menge
- * @Description: 
- * @FilePath: \blog\blog\source\favorite\index.md
--->
 ---
 title: 收藏夹
 date: 2021-02-08 17:10:49
