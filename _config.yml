@@ -362,6 +362,7 @@ category_map:
   前端: Web
   Mac: Mac
   Vue: Vue
+  CSS: Css
   React: React
   微信小程序: Wechat
   python: python
@@ -374,7 +375,7 @@ category_map:
 
 deploy:
   type: git
-  repo: git@github:xgxm13/xgxm13.github.io.git
+  repo: git@github.com:xgxm13/xgxm13.github.io.git
   branch: master
 
     # Live2D

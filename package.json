@@ -38,6 +38,7 @@
     "live2d-widget-model-tororo": "^1.0.5",
     "live2d-widget-model-tsumiki": "^1.0.5",
     "markdown-it-attrs": "^4.1.6",
-    "markdown-it-spoiler": "^1.1.1"
+    "markdown-it-spoiler": "^1.1.1",
+    "puppeteer": "^5.5.0"
   }
 }
